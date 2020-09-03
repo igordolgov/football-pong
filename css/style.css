@@ -1,0 +1,34 @@
+html {
+	background: url('../img/field.jpg') no-repeat center center fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+container {
+	position: relative;
+	max-width: 1366px;
+	margin: 0 auto;
+	padding: 0 75px;
+}
+
+.football {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.field {
+	border-radius: 10px;
+}
+
+audio {
+	src: url('ball_sound.mp3');
+}
+
+.ball {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
